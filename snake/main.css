@@ -1,0 +1,17 @@
+html, body, .snake-wrapper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.snake-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.snake-wrapper canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
